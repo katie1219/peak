@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+    background-color: #F0EBEA;
+}
+
+nav {
+    position: top;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #F0EBEA;
+    padding: .75rem;
+    font-size: 18px;
+    padding-bottom: 4rem;
+}
+
+.logo {
+    display: inline;
+    padding-right: 1.2rem;
+    background-image: url("../img/logo.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+}
+
+.logo, #title {
+    display: inline-block;
+}
+
+#title {
+    font-weight: 800;
+}
+
+header {
+    background-image: url("../img/leaf.png");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.flex-container#plant-header {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    width: auto;
+}
+
+
+
+input, #list-1 p {
+    display: inline-block;
+
+}
+
+#list-1 {
+    padding-left: 4rem;
+}
+
+input, #list-2 p {
+    display: inline-block;
+}
+
+#compost, h2#waste, #badge3 {
+    display: inline-block;
+}
+
+
+
+#list-2 {
+    padding-left: 4rem;
+}
+
+h2#waste {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
